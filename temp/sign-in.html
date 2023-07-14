@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="619033835925-nk7foc41jm31b7vva634uk551ksj5ls0.apps.googleusercontent.com" content="YOUR_CLIENT_ID.apps.googleusercontent.com">
+    
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+
+
+    <style>
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      .header {
+    width: 100%;
+    height: 4em;
+    background-color: blueviolet;
+}
+
+.header h4 {
+    float: right;
+    border: none;
+    margin: 15px;
+    padding: 8px;
+    letter-spacing: 1.5px;
+    
+    width: 80px;
+    height: 30px;
+    text-align: center;
+}
+
+.header h4 a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+      .container {
+        margin-left: 40%;
+        margin-top: 8em;
+        padding: 15px;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .container h2 {
+        font-size: 3em;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 10px;
+      }
+
+      form p {
+        font-size: 20px;
+        padding: 10px;
+        font-family: Arial, Helvetica, sans-serif; 
+        color: blueviolet;
+      }
+
+      form input {
+    width: 40%;
+    height: 60px;
+    border: none;
+    background-color: aliceblue;
+
+      }
+
+      form input[type="submit"] {
+        display: block;
+        background-color: blueviolet;
+    margin-top: 15px;
+    margin-left: 180px;
+    padding: 8px;
+    text-align: center; 
+    align-items: center;
+    justify-content: center;
+    border: 1.5px solid #fff;
+    color: #fff;
+    font-size: 20px;
+    width: 6em;
+    height: 2em;
+      }
+
+      form .account a {
+        display: block;
+      }
+
+
+form .account button {
+    display: block;
+    margin-top: 12px;
+    margin-left: 50px;
+    width: 30%;
+    height: 2.5em; 
+    padding: 5px;
+    color: #fff;
+    border: none;
+    background-color: blueviolet;
+}
+
+form .account button:hover {
+    background-color: #fff;
+    color: blueviolet;
+    transition: 500ms ease-in-out;
+} 
+
+.footer {
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    margin-top: 12.5%;
+    background-color: blueviolet;
+    color: #fff;
+}
+
+    </style>
+
+    <script>
+/*
+        const email = document.getElementById('email').innerHTML;
+        const password = document.getElementById('password').innerHTML;
+
+        function auth() {
+            if (email && password == "") {
+                return document.write('There are no inputs');
+            }
+        }  */
+    </script>
+    <title>Exam Prep Questions & Trials | Past Questions </title>
+</head>
+<body>
+
+    <div class="container">
+        
+          <h2>Sign In</h2>
+
+        <form action="homepage.html" method="post">
+               
+            <p>Email</p>
+            <input id="email" type="text">
+
+            <p>Password</p>
+            <input id="password" type="password">
+
+            <p><a href="">forgot password</a></p>
+
+            <input onclick="auth()" type="submit">
+
+            <p><a href="sign-up.html">Create new aaccount</a></p>
+
+            
+
+                <div class="g-signin2" data-onsuccess="onSignIn"></div>
+                <button>sign in with apple id</button> 
+                <button>sign in with twitter account</button>
+
+        </form>
+
+      
+
+    </div>
+
+    <div class="footer">
+        <p> Powered by meddle solutions &copy; 2023</p>
+    </div>
+    
+</body>
+</html>
